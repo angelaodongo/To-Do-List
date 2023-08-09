@@ -7,5 +7,29 @@
 
 .container{
     width: 100%;
-    min-height: 
+    min-height: 100vh;
+    background: linear-gradient(135deg, #153677, #4e085f);
+    padding: 10px;
 }
+
+.todo-app{
+    width: 100%;
+    max-width: 540px;
+    background-color: wheat;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+.todo-app h2{
+    font-family: 'Lobster';
+    color:midnightblue;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.bx bxs-pen{
+    width: 30px;
+    margin-left: 50px;
+} 
